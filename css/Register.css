@@ -1,0 +1,50 @@
+body{
+    background-image: url("../assets/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+form{
+    background-color: #55ff00;
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #ff0080;
+    color: red;
+
+}
+legend{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ff0080;
+    font-family: aakar;
+
+}
+input[type=text], input[type=email],input[type=password], input[type=tel], input[type=date],select, textarea{
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow:0 0 10px #ff0080 ;
+}
+button{
+    background-color: blue;
+    padding: 10px;
+    width: 30%;
+    color: red;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+
+}
+button:hover{
+    background-color: red;
+}
+input[type=text]:focus{
+    background-color: blue;
+}

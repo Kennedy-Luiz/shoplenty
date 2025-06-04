@@ -1,0 +1,20 @@
+#main{
+    display: flex;
+}
+.taxi{
+    margin: 20px;
+}
+.economy{
+    margin: 20px;
+}
+.business{
+    margin: 20px;
+}
+.myimage1{
+    width: 200px;
+    height: 200px;
+}
+img{
+    width: 50%;
+    height:0 auto;
+}
